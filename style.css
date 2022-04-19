@@ -11,7 +11,7 @@
 }
 *::selection
 {
-    background-color: #ff0d52;
+    background-color: var(--myColor);
     color: #fff;
 }
 :root{
@@ -35,7 +35,7 @@
 }
 .baseColor
 {
-    color: #ff0d52;
+    color: var(--myColor);
 }
 body
 {
@@ -185,7 +185,7 @@ header
 
 .header__left h1
 {
-    color: #ff0d52;
+    color: var(--myColor);
     margin-bottom: 30px;
 }
 #first
@@ -315,7 +315,7 @@ header
 }
 .need:hover
 {
-    border-color: #ff0d52;
+    border-color: var(--myColor);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     background: transparent;
 }
@@ -362,14 +362,14 @@ header
 }
 .standardselection
 {
-    box-shadow: 0 0 10px #ff0d52;
-    border: 2px solid #ff0d52;
+    box-shadow: 0 0 10px var(--myColor);
+    border: 2px solid var(--myColor);
     background: transparent;
 }
 .pricing:hover
 {
-    border-color: #ff0d52;
-    box-shadow: 0 0 10px #ff0d52;
+    border-color: var(--myColor);
+    box-shadow: 0 0 10px var(--myColor);
     background: transparent;
 }
 .pricing__info
@@ -379,7 +379,7 @@ header
 
 .pricing__info h2
 {
-    color: #ff6060;
+    color: var(--myColor);
 }
 .pricing__info p
 {
@@ -508,7 +508,7 @@ footer ul li a
 }
 footer ul li a:hover
 {
-    color: #ff0d52;
+    color: var(--myColor);
 }
 
 
@@ -598,7 +598,7 @@ footer ul li a:hover
     }
     .nav__menu li a:hover 
     {
-        background-color: #ff0d52;
+        background-color: var(--myColor);
         color: #fff;
     }
 
