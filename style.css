@@ -18,6 +18,19 @@
     background-color: var(--myColor);
     color: #fff;
 }
+.list-unstyled
+{
+    padding: 0 20px;
+    text-align: justify;
+}
+.genSectfornew
+{
+    min-height: 100vh;
+}
+.genSectfornew p 
+{
+    padding: 0 40px;
+}
 :root{
     --color-primary: #6c63ff;
     --color-success: #00bf8e;
