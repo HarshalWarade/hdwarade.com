@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
 *
 {
     margin: 0;
     padding: 0;
-    font-family: poppins regular;
+    /* font-family: poppins regular; */
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
     outline: none;
+    scroll-behavior: smooth;
     list-style: none;
 }
 *::selection
@@ -26,7 +30,7 @@
     --color-bg: #323232;
     --color-bg1: #222222;
     --color-bg2: #424890;
-    --myColor: #ff0d52;
+    --myColor: #4385ff;
     --container-width-lg: 76%;
     --container-width-sm: 94%;
     --container-width-md: 90%;
@@ -250,7 +254,7 @@ header
     background: #272727;
     padding: 2rem;
     transition: 0.4s ease;
-    /* height: auto; */
+    height: 50vh;
 }
 .category:hover 
 {
@@ -285,7 +289,6 @@ header
     background: #111;
     transition: 0.6s;
 }
-
 
 
 
@@ -438,8 +441,14 @@ header
 {
     display: block;
 }
-
-
+.border-Left p
+{
+    text-align: justify;
+}
+p
+{
+    /* text-align: justify; */
+}
 .wrapper
 {
     background-color: #323232;
